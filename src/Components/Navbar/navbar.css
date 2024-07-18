@@ -39,11 +39,19 @@
     gap: 2rem;
     font-family: "Roboto", sans-serif;
   font-weight: 100;
+  font-size: 16px;
     /* position: absolute; */
 }
 
 .nav ul li{
    list-style: none;
+   transition: 0.3s ease;
+   cursor: pointer;
+
+}
+
+.nav ul li:hover{
+    transform: scale(1.1);
 }
 
 .logo{
@@ -59,6 +67,11 @@
     font-weight: 700;
     text-transform: uppercase;
     line-height: 5rem;
+    transition: 1s;
+}
+
+.heading:hover{
+    color: white;
 }
 
 .nav button {
@@ -70,4 +83,9 @@
     font-family: "Roboto", sans-serif;
     font-weight: 100;
     font-size: 16px;
+    transition: 0.3s ease;
+}
+
+.nav button:hover{
+    transform: scale(1.05);
 }
